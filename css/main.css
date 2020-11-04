@@ -1,0 +1,365 @@
+/***** BASE STYLES *****/
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #2b2b2b;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1230px;
+}
+.half-width {
+    float:left;
+    width: 605px;
+}
+.third-width {
+    float:left;
+    width: 406px;
+}
+
+/***** HEADER MAIN PAG*****/
+header h1 span{
+    color: #2b2b2b;
+}
+header h1{
+    color:#77a466;
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    text-transform: uppercase;
+}
+/***** NAVIGATION MAIN PAG*****/
+nav {
+    float: right; 
+    padding: 30px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a { 
+    color: #77a466;
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px; 
+    text-transform: uppercase;
+    text-decoration:none;
+}
+/*****PICTURE MAIN PAG*****/
+img {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+/***** INTRODUCTION MAIN PAG*****/
+#introduction .full-width {
+    padding: 15px 0;
+}
+#introduction h2 {
+    color: #77a466;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+#introduction p {
+    color: #2b2b2b;
+    font-family: 'Montserrat', serif;
+    font-size:16px;
+    line-height:25px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+/*****INFORMATION MAIN PAG*****/
+#information{
+    border: 2px solid #EEEEEE;
+}
+#information h3{
+    color:#2b2b2b;
+    font-family: 'Montserrat', serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+/*****SPECIALS MAIN PAG*****/
+#specials{
+    border-right: 2px solid #EEEEEE;
+}
+#specials ul { 
+    list-style-type: none;
+    padding-left: 0px;
+}
+#specials ul li{
+    line-height: 25px;
+}
+#specials ul li a{
+    color: #77a466;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*****REVIEWS MAIN PAG*****/
+#reviews{
+    border-right: 2px solid #EEEEEE;
+}
+#reviews h3{
+    padding-left: 24px;
+}
+#reviews p{
+    font-size: 16px;
+    font-family: 'Montserrat', serif;
+    line-height: 23px;
+    padding: 0px 60px 0px 24px;
+}
+/*****CONTACT MAIN PAG*****/
+#contact h3{
+    padding-left: 24px;
+}
+#contact p{
+    font-size: 16px;
+    font-family: 'Montserrat', serif;
+    line-height: 25px;
+    padding: 0px 60px 0px 24px;
+
+}
+
+/*****FOOTER MAIN PAG*****/
+#footer .full-width span{
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+#footer p{
+    font-size: 16px;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+}
+/***** MENU SPECIFICATIONS*****/
+#menu h3{
+    color: #77a466;
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+#menu li{
+    color: #2b2b2b;
+    font-family: 'Montserrat', serif;
+    font-size:16px;
+    padding-right: 5px;
+    font-weight: bold;
+    
+}
+/***** MENU SPECIFICATIONS - IMG HOVER*****/
+.image {
+  transition: .10s ease;
+  backface-visibility: hidden;
+  vertical-align: middle;
+}
+.image:hover {
+  opacity: 0.5;
+}
+/***** LOCATION SPECIFICATIONS****/
+#introduction .image{
+    padding-left: 140px;
+    padding-bottom: 15px;
+}
+
+/***** TODAY'S SPECIALS****/
+    /*****BODY*****/
+
+#recipe-card {
+    color: #3B3B3B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    width: 1050px;
+    margin: 0 auto;
+}
+    /****BASIC MEASUREMENTS******/
+.card{
+    overflow: auto;
+}
+.image-recipe{
+    float: left;
+    height: 550px;
+    width: 500px;   
+}
+.recipe{
+    box-sizing: border-box;
+    float: left;
+    height: 500px;
+    padding: 20px;
+    width: 550px;
+}
+    /*****ADDING IMAGE RECIPE*****/
+#cookies .image-recipe{
+background-image:url(../img/gluten-free-chocolate-cookies.jpg");
+background-size: cover;
+}
+#pesto .image-recipe{
+background-image:url("../img/nut-free-pesto.jpg");
+background-size: cover;
+}
+#salad .image-recipe{
+background-image: url("../img/watermelon-salad.jpg"); 
+background-size: cover;
+}
+
+     /*****STYLING RECIPE TIMES*****/
+.recipe h2{
+    color:#77a466;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.time{
+    margin-bottom: 20px;
+    border:1px solid #3B3B3B;
+    overflow: auto;
+}
+.time div{
+    box-sizing: border-box;
+    float: left;
+    padding-left: 6px;
+    text-transform: uppercase;
+    width: 33.3333%;
+}
+.time .cook {
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #3B3B3B;
+}
+.time img{
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 12px;
+}
+.time-details{
+    display: inline-block;
+}
+.time strong{
+    font-family: 'Montserrat', sans-serif;
+}
+    /*****COLUMNS FOR RECIPE*****/
+.columns{
+    overflow: auto;
+}
+.directions{
+    float: left;
+    width: 265px;
+}
+.ingredients{
+    float: left;    
+    margin-right: 15px;
+    width: 230px;
+}
+.recipe h3{
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #3B3B3B;
+    color:#77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.ingredients ul{
+    line-height:24px;
+    list-style-type: square;
+    padding-left: 16px;
+}
+.directions ol{
+    line-height: 24px;
+    padding-left: 16px;
+}
+
+/*****ABOUT US PAGE*****/
+#aboutUs {
+    padding: 50px 30px;
+    color: #2b2b2b;
+}
+.aboutContainer h3, p {
+    color: #77a466;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    font-weight: bold;
+}
+.aboutContainer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.aboutContact {
+    background: #f9fcf7;
+}
+
+.aboutContact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.aboutContact form label {
+    display: block;
+}
+
+.aboutContact form p {
+    margin: 0;
+}
+
+.aboutContact form .full {
+    grid-column: 1 / 3;
+}
+
+.aboutContact form button,
+.aboutContact form input,
+.aboutContact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #a9d698;
+}
+
+.aboutContact form button {
+    background: #a9d698;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.aboutContact form button:hover,
+.aboutContact form button:focus {
+    background: #77a466;
+    color: #fff;
+    outline: 0;
+    transition: background-color .5s ease-out;
+}
+
+
+
+
+
+
+
+
+
